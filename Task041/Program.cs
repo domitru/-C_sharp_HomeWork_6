@@ -15,7 +15,7 @@ string[] PrinimaemChisla()
 }
 string[] massiv = PrinimaemChisla();
 
-int[] strA1 = Array.ConvertAll(massiv, int.Parse);
+double[] strA1 = Array.ConvertAll(massiv,double.Parse);
 int g = massiv.Length;
 Console.WriteLine("\nКолличество чисел в массиве: " + g);
 int Kollichestvo = 0;
